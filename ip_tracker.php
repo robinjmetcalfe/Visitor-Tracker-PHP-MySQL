@@ -1,6 +1,4 @@
 <?php
-ini_set("display_errors", true);
-error_reporting(E_ALL|E_STRICT);
 //define our "maximum idle period" to be 30 minutes
 $mins = 30;
 //set the time limit before a session expires
@@ -59,5 +57,3 @@ if(isset($_SESSION["tracking"])){
         $_SESSION["current_page"] = $current_page;
     }
 }
-
-?>

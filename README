@@ -1,3 +1,20 @@
 A very simple visitor tracking tool using PHP and MySQL
 
 Nothing particularly complex, just outlines a few of the basic principles of detecting users and logging their details. Feel free to use this code for whatever purpose.
+
+To see the script in action
+
+1) Setup a database using the SQL script in visitor_tracking.sql
+
+2) Setup your database access details in db_connect.php
+
+3) visit the pages
+
+visitor_tracking_page1.php
+visitor_tracking_page2.php
+visitor_tracking_page3.php
+
+- This will log some visits into the database
+
+4) View the results in ip_report.php
+
